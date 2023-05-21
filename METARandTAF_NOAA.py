@@ -18,7 +18,7 @@ ap_meter=[]
 for td in all_titles:
     title_string = td.string
     # print(title_string)#测试|打印所有td标签的内容
-    ap_meter.append(title_string)#把完整报文存到变量里
+    ap_meter.append(title_string)#把完整报文存到变量里.
 # print(ap_meter)测试|用途
 print("本产品数据来源:NOAA,网址:https://aviationweather.gov/")
 time.sleep(1)
